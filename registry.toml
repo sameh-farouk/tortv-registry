@@ -1,0 +1,8 @@
+# torTV official plugin registry — index.
+#
+# Boxes fetch this file over anonymous HTTPS and verify `registry.toml.sig`
+# against the baked PLUGIN_PUBKEY before trusting it. Add one [[plugin]] table per
+# published plugin+version (see README.md), then RE-SIGN this file and push.
+#
+# No plugins are published yet — the first entries land when the first-party
+# plugins are wasm-ified and published (epic Plan B + Plan C).
